@@ -1,22 +1,22 @@
-başla
+start
     get            
-    store sayi     
-    load sayi
+    store number     
+    load number
     ifneg negtane  
-    ifzero bitir   
-    goto başla     
+    ifzero finish   
+    goto start     
 
 negtane
     load tane       
-    add ekle      
+    add ad      
     store tane    
-    goto başla     
+    goto start     
 
-bitir
+finish
     load tane      
     print          
     stop
 
-sayi 0
+number 0
 tane 0
-ekle 1
+ad 1
